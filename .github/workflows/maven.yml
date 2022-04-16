@@ -1,0 +1,9 @@
+name: Maven Demo
+on: [push]
+jobs:
+  Testing_GHA:
+    name: Testing GHA
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "first action"
